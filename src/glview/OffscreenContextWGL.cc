@@ -70,7 +70,6 @@ std::shared_ptr<OffscreenContext> CreateOffscreenContextWGL(size_t width, size_t
     .nVersion = 1,
     .dwFlags = PFD_DRAW_TO_WINDOW | PFD_SUPPORT_OPENGL,
     .iPixelType = PFD_TYPE_RGBA,
-
     .cColorBits = 32,
     .cDepthBits = 24,
     .cStencilBits = 8
