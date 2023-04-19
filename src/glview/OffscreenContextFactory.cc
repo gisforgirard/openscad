@@ -38,7 +38,7 @@ const char *defaultProvider() {
   return "glx";
 #endif
 #ifdef _WIN32
-  return "wgl-old";
+  return "wgl";
 #endif
 #endif  // NULLGL
 }
