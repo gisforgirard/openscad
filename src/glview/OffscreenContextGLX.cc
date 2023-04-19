@@ -182,5 +182,5 @@ std::shared_ptr<OffscreenContext> CreateOffscreenContextGLX(size_t width, size_t
     return nullptr;
   }
 
-	return ctx;
+  return ctx;
 }

@@ -61,6 +61,10 @@ std::string gl_extensions_dump()
   return out.str();
 }
 
+// FIXME: Add:
+// * Core vs. compatibility profile
+// * OpenGL vs. GLES
+
 std::string gl_dump()
 {
   GLint rbits, gbits, bbits, abits, dbits, sbits;
